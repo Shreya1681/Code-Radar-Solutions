@@ -10,7 +10,7 @@ int main(){
     if(a+b>c || a+c>b || b+c>a ){
         printf("Scalene");
     }
-    else if(a=b || a=c || b=c){
+    else if(a==b || a==c || b==c){
         printf("Isosceles");
     }
     return 0;
