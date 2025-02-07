@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include<stdio.h>
 int main(){
     int x,y;
     scanf("%d %d",&x,&y);
@@ -6,7 +6,7 @@ int main(){
         printf("True");
     }
     else{
-        printf("False")
+        printf("False");
     }
     return 0;
 }
