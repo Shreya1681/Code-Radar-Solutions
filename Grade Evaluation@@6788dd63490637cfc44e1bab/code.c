@@ -13,9 +13,8 @@ int main(){
     }
     else if(x=='D'){
         printf("Below Average");
-    }
-    else{
-        printf("Fail");
+        else
+            printf("Fail");
     }
     return 0;
 }
