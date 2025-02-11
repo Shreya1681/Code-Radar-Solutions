@@ -5,6 +5,9 @@ int main(){
     if(x<0){
         printf("Freezing");
     }
+    else if(x>0){
+        printf("Above Freezing");
+    }
     else{
         printf("Freezing");
     }
