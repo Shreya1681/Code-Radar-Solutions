@@ -10,11 +10,11 @@ int main(){
     else{
         printf("Consonant");
     }
-    if(y>=0 || y<=0){
-        printf("Digit");
-    }
-    else{
-        printf("Special Character");
-    }
+    // else if(y>=0 || y<=0){
+    //     printf("Digit");
+    // }
+    // else{
+    //     printf("Special Character");
+    // }
     return 0;
 }
