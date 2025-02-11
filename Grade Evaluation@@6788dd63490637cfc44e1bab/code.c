@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    char x= A,B,C,D,F;
+    char x;
     scanf("%d",&x);
     if(x=A){
         printf("Excellent");
