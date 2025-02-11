@@ -1,15 +1,14 @@
 #include <stdio.h>
 in main(){
-    char R,G;
-    scanf("%c",&R);
-    scanf("%c",&G);
-    if(R==R){
+    char x;
+    scanf("%c",&x);
+    if(x=='R'){
         printf("Stop");
     }
-    else if(G==G){
+    else if(x=='G''){
         printf("Go");
     }
-    else if(Y==R){
+    else if(x=='Y'){
         printf("Slow Down");
     }
     else{
