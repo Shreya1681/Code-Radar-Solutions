@@ -3,8 +3,8 @@
 int main(){
     int x,y:
     scanf("%d %d",&x,&y);
-    bool result=(x>0 && y<0)||(x<0 && y>0);
-    if(result){
+    a =(x>0 && y<0)||(x<0 && y>0);
+    if(int a){
         printf("True");
     }
     else{
