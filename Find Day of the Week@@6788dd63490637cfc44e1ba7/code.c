@@ -21,7 +21,7 @@ int main(){
     else if(x==6){
         printf("Saturdat");
     }
-    else{
+    else if(x==7){
         printf("Sunday");
     }
     return 0;
