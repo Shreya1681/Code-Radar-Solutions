@@ -6,6 +6,9 @@ int main(){
     if((2*x)==y||(2*y)==x){
         printf("Yes");
     }
+    else if(x%y==0 || y%x==0){
+        printf("Yes");
+    }
     else{
         printf("No");
     }
