@@ -3,13 +3,13 @@
 int main(){
     int x;
     scanf("%d",&x);
-    if(x==1){
-        printf("31");
-    }
     if(x==2){
         printf("28");
     }
     if(x==3){
+        printf("31");
+    }
+    if(x==1){
         printf("31");
     }
     else if(x==4){
