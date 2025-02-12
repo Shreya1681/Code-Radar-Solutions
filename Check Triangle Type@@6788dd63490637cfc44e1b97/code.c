@@ -4,14 +4,14 @@ int main(){
     scanf("%d",&a);
     scanf("%d",&b);
     scanf("%d",&c);
-    if(a==b==c){
+    if(a==b && b==c && c==a){
         printf("Equilateral");
-    }
-    else if(a+b>c || a+c>b || b+c>a ){
-        printf("Scalene");
     }
     else if(a==b || a==c || b==c){
         printf("Isosceles");
+    }
+    else{
+        printf("Scalene");
     }
     return 0;
 }
