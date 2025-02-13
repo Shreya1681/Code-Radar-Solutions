@@ -4,9 +4,10 @@ int main(){
     scanf("%d",&x);
     int a=0;
     for(int i=2;i<=x-1;i=i+1){
-        if(x%i==0);
+        if(x%i==0){
         a=1;
         break;
+        }
     }
     if(a==0){
         printf("Prime");
