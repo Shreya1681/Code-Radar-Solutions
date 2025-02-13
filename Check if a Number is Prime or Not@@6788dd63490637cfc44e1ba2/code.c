@@ -2,11 +2,13 @@
 int main(){
     int x;
     scanf("%d",&x);
-    if(x>0 && x/x==0){
-        printf("Prime");
+    int a =0;
+    for(int i=2;i<=n-1;i++){
+        if(n%i==0);
+        a=1;
+        break;
     }
-    else if(x%2==0){
-
+    if(a==0){
         printf("Prime");
     }
     else{
