@@ -3,9 +3,7 @@
 int main(){
     int x,y;
     scanf("%d %d",&x,&y);
-    int shift;
-    scanf("%d",&shift);
-    int result= x<<shift,y<<shift;
+    int result= x<<y;
     printf("%d",result);
     return 0;
 }
