@@ -7,12 +7,12 @@ int main(){
     scanf("%c",&z);
     switch(z){
         case '+':
-        printf("%d",a+b);
+        printf("%d",x+y);
         break;
         case '-':
-        printf("%d",a-b);
+        printf("%d",x-y);
         break;
-        
+
     }
 return 0;
 }
