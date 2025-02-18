@@ -14,10 +14,9 @@ int main(){
         if((ch>='a'&& ch<='z')||(ch>='A' && ch<='Z')){
             printf("Constant\n");
         }
-        else{
+        else
             printf("Special Character");
             break;
-        }
         return 0;
     }
 }
