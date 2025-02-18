@@ -25,3 +25,5 @@ int main(){
         default:
         printf("Sunday");
     }
+    return 0;
+}
