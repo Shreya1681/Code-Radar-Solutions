@@ -2,9 +2,10 @@
 #include<stdio.h>
 int main(){
     int x,y;
-    scanf("%d %d",&x,&y);
     char z;
-    scanf("%c",&z);
+    scanf("%d %d %c",&x,&y,&z);
+    
+    
     switch(z){
         case '+':
         printf("%d",x+y);
