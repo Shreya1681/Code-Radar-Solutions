@@ -12,7 +12,7 @@ int main(){
         break;
         default:
         if((ch>='a'&& ch<='z')||(ch>='A' && ch<='Z')){
-            printf("Constant\n");
+            printf("Consonant\n");
         }
         else
             printf("Special Character");
