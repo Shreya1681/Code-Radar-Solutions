@@ -2,23 +2,21 @@
 #include<stdio.h>
 
 int main() {
-    int rows, i, j, space;
-    printf("Enter the number of rows: ");
+    int rows, i, j;
+
+    // Input the number of rows for the pyramid
+
     scanf("%d", &rows);
 
     for (i = 1; i <= rows; i++) {
-  
-        for (space = 1; space <= rows - i; space++) {
+        // Print spaces for alignment
+        for (j = 1; j <= rows - i; j++) {
             printf(" ");
         }
 
-        // Print stars using an if-else
+        // Print stars to form the pyramid
         for (j = 1; j <= (2 * i - 1); j++) {
-            if (j % 2 == 0) {
-                printf(" "); // Optional: Add space between stars
-            } else {
-                printf("*");
-            }
+            printf("*");
         }
 
         // Move to the next line
